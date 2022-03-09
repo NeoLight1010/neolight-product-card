@@ -20,7 +20,7 @@ export const ProductButtons = ({
 
     return (
         <div
-            className={`${styles.buttonsContainer} ${className}`}
+            className={`${styles.buttonsContainer} ${className || ""}`}
             style={style}
         >
             <button
